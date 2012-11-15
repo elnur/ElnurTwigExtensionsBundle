@@ -1,0 +1,27 @@
+{
+    "name": "elnur/twig-extensions-bundle",
+    "type": "symfony-bundle",
+    "description": "Commonly needed Twig extensions",
+    "keywords": ["twig"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elnur Abdurrakhimov",
+            "email": "elnur@elnur.pro",
+            "homepage": "http://www.elnur.pro"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "twig/twig": "1.*",
+        "symfony/dependency-injection": "2.*",
+        "symfony/http-kernel": "2.*",
+        "symfony/config": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Elnur\\Bundle\\TwigExtensionsBundle": ""
+        }
+    },
+    "target-dir": "Elnur/Bundle/TwigExtensionsBundle"
+}
